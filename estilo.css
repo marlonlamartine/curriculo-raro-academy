@@ -1,0 +1,167 @@
+body{
+    background-color: whitesmoke;
+}
+
+#barra-superior-acima{
+    display: flex;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+    width: 100%;
+    height: 40px;
+    background-color: rgb(54, 53, 53);
+}
+
+#barra-superior-abaixo{
+    display: flex;
+    border-top: 1px solid black;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+    width: 100%;
+    height: 200px;
+    background-color: rgb(61, 60, 60);
+    justify-content: center;
+}
+
+#titulo{
+    color: whitesmoke;
+    font-size: 24;
+    font-weight: bold;
+    padding-left: 75px;
+}
+
+#subtitulo{
+    color: whitesmoke;
+    font-size: 18;
+    font-weight: bold;       
+}
+
+#foto-section{
+    display: flex;
+    width: 100%;
+    height: 250px;    
+    justify-content: center;
+    position: absolute;
+    top: 160px;
+}
+
+#foto{
+    display: flex;
+    object-fit: contain;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+}
+
+#info-section{
+    display: flex;
+    width: 70%;
+    height: 400px;
+    position: relative;
+    left: 15%;    
+    top: 1%;
+    border-bottom: 1px solid rgb(0 0 0 / 0.2);
+    border-left: 1px solid rgb(0 0 0 / 0.2);
+    border-right: 1px solid rgb(0 0 0 / 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+
+}
+
+#contact-section{
+    display: flex;    
+    position: relative;
+    top: 130px;
+    left: 26%;
+    width: 50%;
+    height: 50px;
+    justify-content: space-evenly;    
+}
+
+#localizacao{
+    display: flex;
+    position: relative;
+    top: 170px;
+    right: 90px;
+    width: 50%;
+    height: 50px;
+    font-size: 18;
+    font-weight: bold;
+    color: black;    
+}
+
+#bio-section{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 250px;
+    
+}
+
+#bio-text{
+    font-size: 18;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(24, 23, 23);
+}
+
+#formacao-title{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#formacao-section{
+    display: flex;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 90px;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);    
+}
+
+#formacao-li{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#experiencia-title{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#experiencia-section{
+    display: flex;
+    position: relative;
+    left: 15%;
+    width: 70%;
+    height: 100px;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+}
+
+#barra-inferior{
+    margin-top: 40px;
+    display: flex;
+    box-shadow: 0 3px rgb(0 0 0 / 0.2);
+    width: 100%;
+    height: 60px;
+    background-color: rgb(54, 53, 53);
+    justify-content: center;
+}
